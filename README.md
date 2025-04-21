@@ -10,7 +10,7 @@ This Terraform module creates a production-ready AWS Virtual Private Cloud (VPC)
 
 ### Below is an image showcasing the architecture of the cloud-based application I built.
 
-![Project Image](tech123/Image/Vpc and more.gif)
+![Project Image](https://github.com/MaxCH114/3tier-vpc-infrastructure/blob/master/tech123/Image/Vpc%20and%20more.gif)
 
 ## 🔧 Features
 
