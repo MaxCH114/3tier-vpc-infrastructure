@@ -49,3 +49,12 @@ output "vpc_cidr" {
 }
 
 
+output "nat_eip_id" {
+  description = "ID of the Elastic IP attached to the NAT Gateway"
+  value       = aws_eip.nat_eip.id
+}
+
+output "public_subnet_cidrs" {
+  description = "CIDR blocks of public subnets"
+  value       = [for subnet in aws_subnet.public_subnets : subnet.cidr_block]
+}
