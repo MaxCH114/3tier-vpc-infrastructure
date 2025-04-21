@@ -3,10 +3,6 @@ Create 3-Tier VPC Architecture using Terraform Module
 
 This Terraform module creates a production-ready AWS Virtual Private Cloud (VPC) environment, complete with public, private, and database subnets, route tables, internet and NAT gateways, and a layered security group structure for a typical 3-tier architecture.
 
-### **Author**
-- Paul Max Chamblain | 
-
-[Linkedin] (https://www.linkedin.com/in/paulmchamblain/)
 
 ### Below is an image showcasing the architecture of the cloud-based application I built.
 
@@ -59,5 +55,10 @@ AWS CLI configured
 
 AWS account with proper IAM permissions
 
+
+### **Author**
+- Paul Max Chamblain | 
+
+[Linkedin] (https://www.linkedin.com/in/paulmchamblain/)
 
 
