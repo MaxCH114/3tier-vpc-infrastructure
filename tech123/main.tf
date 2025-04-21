@@ -12,7 +12,7 @@ module "vpc" {
 
 # Call Security Group module
 module "security_groups" {
-  source       = "./modules/security_groups" # Path to the security group module
+  source       = "./modules/Security_groups" # Path to the security group module
   project_name = var.project_name            # Pass the project name variable
   vpc_id       = module.vpc.vpc_id           # Use the vpc_id output from the VPC module
   my_ip        = var.my_ip                   # Pass the IP (or list of IPs) for bastion access
