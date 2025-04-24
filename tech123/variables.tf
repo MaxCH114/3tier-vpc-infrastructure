@@ -38,8 +38,40 @@ variable "my_ip" {
   type        = list(string)
 }
 
+variable "health_check_path" {
+  description = "Health check path for the ALB target group"
+  type        = string
+  
+}
+
+variable "target_port" {
+  description = "Port for the target group"
+  type        = number
+  default     = 80
+}
+
+variable "target_protocol" {
+  description = "Protocol for the target group"
+  type        = string
+  default     = "HTTP"
+}
+
+variable "ec2_instance_type" {
+  default = "t3.micro"
+  type    = string
+}
 
 
+variable "environment" {
+  type = string
+}
+
+
+variable "listener_port" {
+  description = "Port for the ALB listener"
+  type        = number
+  default     = 80  # or whatever you intend
+}
 
 
 

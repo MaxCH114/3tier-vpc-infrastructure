@@ -58,3 +58,4 @@ output "public_subnet_cidrs" {
   description = "CIDR blocks of public subnets"
   value       = [for subnet in aws_subnet.public_subnets : subnet.cidr_block]
 }
+
