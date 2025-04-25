@@ -37,7 +37,7 @@ module "vpc" {
 }
 
 
-🚀 Outputs
+ Outputs
 VPC ID and CIDR
 
 Subnet IDs (public, private, DB)
