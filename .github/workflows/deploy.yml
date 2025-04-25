@@ -35,7 +35,7 @@ jobs:
       working-directory: ./tech123
 
     - name : apply Terraform deployment
-      run : terraform apply -auto-approve
+      run : terraform destroy -auto-approve
       working-directory: ./tech123
 
   
